@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --background-color : #000000;
+    --text-color: #FFFFFF;
+    --card-title-color: #959596;
+    --important-text-color: #FFBD59;
+    --title-font-size: 50px;
+    --second-title-font-size: 32px;
+    --link-font-size: 20px;
+    --car-title-font-size: 16px;
+    --container-width: 1350px;
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+}
+
+.landing-page{
+    max-width: 100vw;
+    min-height: 200vh;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    position: relative;
+}
+
+.container{
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.links a, i.fa-bars, i.fa-times, .links-mobile a{
+    color: #FFBD59;
+    font-size: var(--link-font-size);
+}
+
+.links-mobile a{
+    font-size: var(--second-title-font-size);
+}
+
+
+
+
+
