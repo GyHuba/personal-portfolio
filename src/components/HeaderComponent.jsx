@@ -18,7 +18,7 @@ export default function HeaderComponent() {
           <ul className="top-nav">
             <li className="links">
               {" "}
-              <a href="#">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
             <li className="links">
               {" "}
