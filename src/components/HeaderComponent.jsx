@@ -9,6 +9,8 @@ export default function HeaderComponent() {
     else return "fa fa-bars";
   }
 
+
+
   return (
     <>
       <div className="header">
@@ -16,7 +18,7 @@ export default function HeaderComponent() {
           <ul className="top-nav">
             <li className="links">
               {" "}
-              <a href="">Projects</a>
+              <a href="#">Projects</a>
             </li>
             <li className="links">
               {" "}
@@ -24,7 +26,7 @@ export default function HeaderComponent() {
             </li>
             <li className="links">
               {" "}
-              <a href="">Linkedin</a>
+              <a target="blank" href="https://www.linkedin.com/in/huba-gyihor-39641a24b/">Linkedin</a>
             </li>
             <li>
               <i
@@ -40,15 +42,21 @@ export default function HeaderComponent() {
       <ul className="full-screen-nav">
             <li className="links-mobile">
               {" "}
-              <a href="">Projects</a>
+              <a href="#" onClick={() => {
+                  setIsActive(!isActive);
+                }}>Projects</a>
             </li>
             <li className="links-mobile">
               {" "}
-              <a href="">Contact</a>
+              <a href="" onClick={() => {
+                  setIsActive(!isActive);
+                }}>Contact</a>
             </li>
             <li className="links-mobile">
               {" "}
-              <a href="">Linkedin</a>
+              <a target="blank" href="https://www.linkedin.com/in/huba-gyihor-39641a24b/" onClick={() => {
+                  setIsActive(!isActive);
+                }}>Linkedin</a>
             </li>
           </ul>      
     </>
