@@ -49,6 +49,7 @@
 .link{
     font-size: var(--second-title-font-size);
     color: var(--important-text-color);
+    cursor: pointer ;
 }
 
 .title{

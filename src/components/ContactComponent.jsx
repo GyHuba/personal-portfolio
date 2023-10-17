@@ -2,6 +2,16 @@ import '../css/contact-component.css'
 
 export default function ContactComponent(){
 
+    const onButtonClick = () => {
+        const pdfUrl = "../public/Huba Gyihor.pdf";
+        const link = document.createElement("a");
+        link.href = pdfUrl;
+        link.download = "guba-gyihor.pdf";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
     return(
         <>
         <div className="container content">
@@ -21,7 +31,7 @@ export default function ContactComponent(){
                 </div>
                 <div className="contact cv">
                     <div className="card-title">CV</div>                    
-                    <span className='link'>Download my CV</span>         
+                    <span className='link' onClick={onButtonClick}>Download my CV</span>         
                 </div>
             </div>
         </div>
