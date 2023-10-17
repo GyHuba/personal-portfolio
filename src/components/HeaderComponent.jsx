@@ -22,7 +22,11 @@ export default function HeaderComponent() {
             </li>
             <li className="links">
               {" "}
-              <a href="">Contact</a>
+              <a href="#skills">Skills</a>
+            </li>
+            <li className="links">
+              {" "}
+              <a href="#contact">Contact</a>
             </li>
             <li className="links">
               {" "}

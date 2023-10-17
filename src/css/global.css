@@ -37,10 +37,6 @@
     padding: 0 50px;
 }
 
-.container.content{
-    min-height: 95vh;
-}
-
 .links a, i.fa-bars, i.fa-times, .links-mobile a{
     color: #FFBD59;
     font-size: var(--link-font-size);
@@ -50,13 +46,18 @@
     font-size: var(--second-title-font-size);
 }
 
+.link{
+    font-size: var(--second-title-font-size);
+    color: var(--important-text-color);
+}
+
 .title{
     font-size: var(--title-font-size);
 }
 
 .second-title{
     font-size: var(--second-title-font-size);
-    padding: 8rem 0  2rem 0;
+    padding: 10rem 0  2rem 0;
 }
 
 .card-title{

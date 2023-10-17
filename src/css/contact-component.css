@@ -1,0 +1,13 @@
+
+
+.contact-container{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 500px));
+    gap: 3rem;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
