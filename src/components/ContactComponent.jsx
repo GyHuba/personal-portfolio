@@ -6,7 +6,7 @@ export default function ContactComponent(){
         const pdfUrl = "../public/Huba Gyihor.pdf";
         const link = document.createElement("a");
         link.href = pdfUrl;
-        link.download = "guba-gyihor.pdf";
+        link.download = "huba-gyihor.pdf";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
