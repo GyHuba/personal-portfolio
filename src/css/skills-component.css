@@ -1,0 +1,28 @@
+
+
+.img{
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+}
+
+.phone-mode{
+    display: none;
+}
+
+
+.skills-container{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(2px, 500px));
+    gap: 3rem;
+}
+
+@media screen and (max-width:900px) {
+    .wild-screen-mode{
+        display: none;
+    }
+    .phone-mode{
+        display: block;
+    }
+}

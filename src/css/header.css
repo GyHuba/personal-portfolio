@@ -15,7 +15,7 @@
     text-decoration-thickness: 1px;
 }
 
-i.fa-bars, .full-screen-nav {
+i.fa-bars, .full-screen-nav{
     display: none;
 }
 
@@ -32,8 +32,15 @@ i.fa-bars, .full-screen-nav {
         display: none;
     }
     .full-screen-nav{
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5rem;
         font-size: 32px;
-        
+        position: absolute;
+        width: 100vw;
+        min-height: 100vh;
+        background-color: black;        
     }
 }
