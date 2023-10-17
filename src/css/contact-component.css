@@ -11,3 +11,14 @@
     flex-direction: column;
     gap: 0.5rem;
 }
+
+.container.contact.content{
+    padding-bottom: 10rem;
+}
+
+@media screen and (max-width:680px){
+    .contact-container{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}

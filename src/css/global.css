@@ -61,7 +61,7 @@
     padding: 10rem 0  2rem 0;
 }
 
-.card-title{
+.card-title, .footer a{
     font-size: var(--card-title-font-size);
     color: var(--card-title-color);
 }
@@ -70,5 +70,16 @@
     color: var(--important-text-color);
 }
 
+.container.footer{
+    font-size: var(--card-title-font-size);
+    color: var(--card-title-color);
+}
+
+
+@media screen and (max-width:600px) {
+    .container{
+        padding: 0 10px;
+    }
+}
 
 

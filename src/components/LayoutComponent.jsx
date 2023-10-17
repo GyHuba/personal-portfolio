@@ -1,4 +1,5 @@
 import ContactComponent from "./ContactComponent";
+import FooterComponent from "./FooterComponent";
 import HeaderComponent from "./HeaderComponent";
 import LandingPageComponent from "./LandingPageComponent";
 import ProjectComponent from "./ProjectsComponent";
@@ -14,6 +15,7 @@ export default function LayoutComponent(){
         <ProjectComponent />
         <SkillsComponent />
         <ContactComponent />
+        <FooterComponent />
         </>
     )
 }

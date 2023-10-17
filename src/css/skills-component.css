@@ -30,3 +30,10 @@
         display: block;
     }
 }
+
+@media screen and (max-width:500px) {
+
+    .phone-mode{
+        width: 300px;
+    }
+}

@@ -14,12 +14,12 @@ export default function ContactComponent(){
 
     return(
         <>
-        <div className="container content">
+        <div className="container content contact">
             <div className="second-title" id='contact'>Get in touch</div>
             <div className="contact-container">
                 <div className="contact linkedin">
                     <div className="card-title">Linkedin</div>                    
-                    <a href="https://www.linkedin.com/in/huba-gyihor-39641a24b/" target='blank' className='link'>{`Let's connect`}</a>          
+                    <a href="https://www.linkedin.com/in/huba-gyihor-39641a24b/" target='blank' className='link'>{`Let's connect!`}</a>          
                 </div>
                 <div className="contact email">
                     <div className="card-title">Email</div>                    
