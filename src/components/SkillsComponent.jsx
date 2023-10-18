@@ -8,14 +8,14 @@ export default function SkillsComponent() {
           Skills
         </div>
         <div className="skills-container">
-          <img src="../public/skills.png" alt="" className="phone-mode" />
+          <img src="/skills.png" alt="" className="phone-mode" />
           <img
-            src="../public/skills2.png"
+            src="/skills2.png"
             alt=""
             className="wild-screen-mode"
           />
           <img
-            src="../public/skills1.png"
+            src="/skills1.png"
             alt=""
             className="wild-screen-mode"
           />

@@ -6,7 +6,7 @@ export default function ProjectComponent() {
       title: "Memorty card",
       description:
         "Test your memory with this fun game! Remember all the guys of the Rick and Morty series and be careful not to choose the same character twice. The game was written in react.",
-      image: "../public/memory-card.png",
+      image: "/memory-card.png",
       liveView:
         "https://rick-and-memorty-by-huba-gyihor.netlify.app/?fbclid=IwAR1M6ORS2jgO7vZhaU_W3FnvjKQrQTFJkFO9cjw07LIP0_EuulGygotmoUM",
       sourceCode: "https://github.com/GyHuba/memory-card",
@@ -25,7 +25,7 @@ export default function ProjectComponent() {
       title: "Libary",
       description:
         "This is a usefull application with local storage to keep track of the books you read or waiting to be read. Written in Javascript",
-      image: "../public/library.png",
+      image: "/library.png",
       liveView: "https://gyhuba.github.io/libary/",
       sourceCode: "https://github.com/GyHuba/libary",
       id: 2,
@@ -34,7 +34,7 @@ export default function ProjectComponent() {
       title: "Etch a sketch",
       description:
         "Express yourself and get creative with this sketching game written in Javascript.",
-      image: "../public/etch-a-sketch.png",
+      image: "/etch-a-sketch.png",
       liveView: "https://gyhuba.github.io/etch-a-sketch/",
       sourceCode: "https://github.com/GyHuba/etch-a-sketch",
       id: 3,
@@ -43,7 +43,7 @@ export default function ProjectComponent() {
       title: "Tic-tac-toe",
       description:
         "A classic game you can play with your friends and get nostalgic together over a beer. The program was written in Javascript.",
-      image: "../public/tic-tac-toe.png",
+      image: "/tic-tac-toe.png",
       liveView: "https://gyhuba.github.io/tic-tac-toe/",
       sourceCode: "https://github.com/GyHuba/tic-tac-toe",
       id: 4,
@@ -52,7 +52,7 @@ export default function ProjectComponent() {
       title: "Calculator",
       description:
         "Whether you work or study, a calculator always comes handy. I made this one useing Javascipt",
-      image: "../public/calculator.png",
+      image: "/calculator.png",
       liveView: "https://gyhuba.github.io/calculator/",
       sourceCode: "https://github.com/GyHuba/calculator",
       id: 5,
