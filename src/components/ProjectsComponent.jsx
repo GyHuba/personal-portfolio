@@ -16,7 +16,7 @@ export default function ProjectComponent() {
       title: "Toy webshop",
       description:
         "This project was a collaboration with my classmates. We built an online webshop for childrens toys as the final assignment of the bootcamp.",
-      image: "../public/toy-webshop.png",
+      image: "/toy-webshop.png",
       liveView: "",
       sourceCode: "https://github.com/GyHuba/toy-webshop",
       id: 1,
