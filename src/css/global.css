@@ -17,9 +17,6 @@
     --link-font-size: 20px;
     --card-title-font-size: 16px;
     --container-width: 1350px;
-    --animate-duration: 1s;
-    --animate-delay: 1s;
-    --animate-repeat: 1;
 }
 
 .landing-page{
@@ -81,5 +78,19 @@
         padding: 0 10px;
     }
 }
+
+.content.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1.5s;
+    transform: translateY(10%);
+}
+
+.content.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
 
 

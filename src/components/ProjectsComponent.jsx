@@ -55,7 +55,7 @@ export default function ProjectComponent(){
 
     return(
         <>
-        <div className="container content">
+        <div className="container content hidden">
             <div className="second-title" id="projects">Projects</div>
             <div className="projects-container">
                 {projects.map((project)=>(

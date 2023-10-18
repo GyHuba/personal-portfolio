@@ -14,7 +14,7 @@ export default function ContactComponent(){
 
     return(
         <>
-        <div className="container content contact">
+        <div className="container content contact hidden">
             <div className="second-title" id='contact'>Get in touch</div>
             <div className="contact-container">
                 <div className="contact linkedin">

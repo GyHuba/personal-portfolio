@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: repeat(2, minmax(250px, 500px));
     gap: 3rem;
+    align-content: center;
 }
 
 .contact{
@@ -14,6 +15,7 @@
 
 .container.contact.content{
     padding-bottom: 10rem;
+
 }
 
 @media screen and (max-width:680px){

@@ -5,7 +5,7 @@ export default function SkillsComponent(){
 
     return(
         <>
-        <div className="container content">
+        <div className="container content hidden">
         <div className="second-title" id="skills">Skills</div>
             <div className="skills-container">
                 <img src="../public/skills.png" alt="" className="phone-mode"/>
