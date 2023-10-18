@@ -1,26 +1,23 @@
-
-
-.contact-container{
-    display: grid;
-    grid-template-columns: repeat(2, minmax(250px, 500px));
-    gap: 3rem;
-    align-content: center;
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(250px, 500px));
+  gap: 3rem;
+  align-content: center;
 }
 
-.contact{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
-.container.contact.content{
-    padding-bottom: 10rem;
-
+.container.contact.content {
+  padding-bottom: 10rem;
 }
 
-@media screen and (max-width:680px){
-    .contact-container{
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
-    }
+@media screen and (max-width: 680px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }

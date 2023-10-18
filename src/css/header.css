@@ -1,46 +1,91 @@
-.header{
-    padding: 30px 0;
-    position: sticky;
-    top: 0;
+.header {
+  padding: 30px 0;
+  top: 0;
+  position: sticky;
+  z-index: 1;
 }
 
-.top-nav{
-    display: flex;
-    justify-content: end;
-    gap: 5rem;
+.top-nav {
+  display: flex;
+  justify-content: end;
+  gap: 5rem;
 }
 
-.links a, .links-mobile a{
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
+.links a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
 }
 
-i.fa-bars, .full-screen-nav{
-    display: none;
+i.fa-bars,
+.full-screen-nav {
+  display: none;
 }
 
+.overlay {
+  padding: 0 10px;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+}
 
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 1.5rem;
+  text-decoration: none;
+  font-size: 36px;
+  color: #ffbd59;
+  display: block;
+  transition: 0.3s;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+.overlay .closebtn {
+  display: block;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
 
 @media screen and (max-width: 600px) {
-    i.fa-bars, i.fa-times {
-        display: block;
-        position: absolute;
-        top: 30px;
-        right: 30px;
-    }
-    .links a{
-        display: none;
-    }
-    .full-screen-nav{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        gap: 5rem;
-        font-size: 32px;
-        position: absolute;
-        width: 100vw;
-        min-height: 100vh;
-        background-color: black;        
-    }
+  i.fa-bars {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    position: fixed;
+    z-index: 1;
+  }
+  .links a {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .top-nav {
+    gap: 2rem;
+  }
 }

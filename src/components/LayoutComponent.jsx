@@ -6,33 +6,28 @@ import LandingPageComponent from "./LandingPageComponent";
 import ProjectComponent from "./ProjectsComponent";
 import SkillsComponent from "./SkillsComponent";
 
+export default function LayoutComponent() {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+      }
+    });
+  });
 
-export default function LayoutComponent(){
+  useEffect(() => {
+    const hiddenElements = document.querySelectorAll(".hidden");
+    hiddenElements.forEach((el) => observer.observe(el));
+  });
 
-    const observer = new IntersectionObserver((entries)=>{
-        entries.forEach((entry)=>{
-            console.log(entry)
-            if(entry.isIntersecting){
-                entry.target.classList.add('show');
-            }
-        })
-    })
-
-    useEffect(()=>{
-        const hiddenElements = document.querySelectorAll('.hidden');
-        hiddenElements.forEach((el)=>observer.observe(el))
-    })
-
-
-
-    return(
-        <>
-        <HeaderComponent />
-        <LandingPageComponent />
-        <ProjectComponent />
-        <SkillsComponent />
-        <ContactComponent />
-        <FooterComponent />
-        </>
-    )
+  return (
+    <>
+      <HeaderComponent />
+      <LandingPageComponent />
+      <ProjectComponent />
+      <SkillsComponent />
+      <ContactComponent />
+      <FooterComponent />
+    </>
+  );
 }

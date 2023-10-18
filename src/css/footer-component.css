@@ -1,12 +1,11 @@
-.footer{
-    display: flex;
-    gap: 2rem;
+.footer {
+  display: flex;
+  gap: 2rem;
 }
 
-
-@media screen and (max-width:400px) {
-    .footer{
-        flex-direction: column;
-        gap: 0.5rem;
-    }
+@media screen and (max-width: 400px) {
+  .footer {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 }
