@@ -2,7 +2,7 @@ import "../css/contact-component.css";
 
 export default function ContactComponent() {
   const onButtonClick = () => {
-    const pdfUrl = "../public/Huba Gyihor.pdf";
+    const pdfUrl = "/Huba Gyihor.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "Huba Gyihor.pdf";
